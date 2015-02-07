@@ -9,3 +9,5 @@ applications:
   command: node index --production
   env:
     NODE_ENV: production
+  services:
+  - ghostdb_mysql_service
