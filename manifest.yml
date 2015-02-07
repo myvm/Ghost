@@ -1,0 +1,11 @@
+---
+applications:
+- name: ghost-myvm
+  memory: 256M
+  instances: 1
+  host: ghost-myvm
+  domain: mybluemix.net
+  path: .
+  command: node index --production
+  env:
+    NODE_ENV: production
